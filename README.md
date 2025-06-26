@@ -1,3 +1,6 @@
+> [!NOTE]
+> Sourcegraph Cody has been sunset, therefore development on integrating Cody with Eclipse has stopped. For more information on the sunset of Cody please see this [blog post](https://sourcegraph.com/blog/changes-to-cody-free-pro-and-enterprise-starter-plans).
+
 - [Development guide](docs/development.md)
 
 ## Installing Cody for Eclipse
@@ -36,7 +39,7 @@ This can happen if Eclipse prompted you to setup a password for secure storage a
 This can happen because the default OS password integration has been corrupted. Go to Preferences > General > Security > Secure Storage and ensure your OS integration is checked. Then click Clear Passwords at the top, and then click "Change Password". If you see a dialog saying "An error occurred while decrypting stored values... Do you want to cancel password change?" Click "No."
 
 This will reset the secure storage master password in the OS integration. You will be asked if you want to provide additional information for password recovery, which is optional.
-Click "Apply and Close" and restart Eclipse. 
+Click "Apply and Close" and restart Eclipse.
 
 ## _General Tips_
 
