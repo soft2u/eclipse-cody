@@ -136,6 +136,7 @@ public class StartAgentJob extends Job {
     capabilities.authentication = ClientCapabilities.AuthenticationEnum.Enabled;
     capabilities.secrets = ClientCapabilities.SecretsEnum.Client_managed;
     capabilities.chat = ClientCapabilities.ChatEnum.Streaming;
+    capabilities.edit = ClientCapabilities.EditEnum.Enabled;
     capabilities.showDocument = ClientCapabilities.ShowDocumentEnum.Enabled;
     // Enable string-encoding for webview messages.
     capabilities.webviewMessages = ClientCapabilities.WebviewMessagesEnum.String_encoded;
