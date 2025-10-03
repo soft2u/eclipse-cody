@@ -1,6 +1,16 @@
 > [!NOTE]
 > Sourcegraph Cody has been sunset, therefore development on integrating Cody with Eclipse has stopped. For more information on the sunset of Cody please see this [blog post](https://sourcegraph.com/blog/changes-to-cody-free-pro-and-enterprise-starter-plans).
 
+> [!IMPORTANT]
+> **This is a community-maintained fork** of the original archived Sourcegraph Eclipse plugin. Since the official project is no longer maintained, this fork provides:
+> - **Edit capabilities**: Support for inserting code at cursor position from Cody chat
+> - **Updated compatibility**: Works with current Sourcegraph versions
+> - **Bug fixes**: Resolved WebviewMessage deserialization issues
+> - **Ongoing maintenance**: Community-driven improvements and updates
+> 
+> The original project worked in production but became incompatible with newer Sourcegraph versions. This fork restores and enhances that functionality.
+
+
 - [Development guide](docs/development.md)
 
 ## Installing Cody for Eclipse
