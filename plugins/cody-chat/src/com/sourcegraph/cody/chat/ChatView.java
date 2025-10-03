@@ -54,6 +54,7 @@ public class ChatView extends ViewPart {
 
   private static void configureGson(GsonBuilder builder) {
     ProtocolTypeAdapters.register(builder);
+    builder.registerTypeAdapter(WebviewMessage.class, WebviewMessage.deserializer());
   }
 
   @Override
